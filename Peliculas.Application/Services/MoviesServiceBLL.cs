@@ -75,7 +75,7 @@ namespace Peliculas.Application.Services
             if (idMovie <= 0)
                 throw new Exception("Error al registrar la pelicula");
 
-            return movies.idMovie;
+            return movies.idDirector;
 
         }
         public async Task<int> putMovie(MoviesDTO moviesDTO)
